@@ -26,7 +26,7 @@ const BillPreview = forwardRef(({ billData }, ref) => {
                {billData.showLogo ? (
                   <div className="flex justify-between items-center space-y-4">
                      {/* Logo section */}
-                     <div className="flex space-y-4 items-start">
+                     <div className="flex flex-col space-y-4 items-start">
                         {/* Logo */}
                         <img
                            src={billData.companyLogo}

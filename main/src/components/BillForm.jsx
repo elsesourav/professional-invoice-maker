@@ -13,8 +13,8 @@ import { calculateBillTotals, calculateItemAmount } from "../utils/billUtils";
 const BillForm = ({ billData, setBillData, onPreview }) => {
    const [activeTab, setActiveTab] = useState("details");
    const [expandedSections, setExpandedSections] = useState({
-      company: false,
-      customer: false,
+      company: true,
+      customer: true,
       settings: false,
    });
 

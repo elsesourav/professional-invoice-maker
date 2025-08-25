@@ -1,7 +1,8 @@
+
 # 📄 Professional Invoice Maker
 
 <div align="center">
-  <img src="src/assets/icon.png" alt="Invoice Maker Icon" width="80" height="80">
+  <img src="./main/src/assets/icon.png" alt="Invoice Maker Icon" width="80" height="80">
   
   A modern, responsive web application for creating professional invoices with GST calculations and custom branding.
 </div>
@@ -20,7 +21,7 @@
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/elsesourav/professional-invoice-maker.git
    cd bill-maker
    ```
 
@@ -38,6 +39,11 @@
 
 4. **Build for production**
    ```bash
+   # ...existing code...
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
    npm run build
    ```
 
